@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/archivo_black</item>
+        <item>@font/autour_one</item>
+        <item>@font/baumans</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/carrois_gothic</item>
+        <item>@font/chelsea_market</item>
+        <item>@font/delius_unicase</item>
+        <item>@font/della_respira</item>
+        <item>@font/doppio_one</item>
+        <item>@font/eagle_lake</item>
+        <item>@font/graduate</item>
+        <item>@font/hammersmith_one</item>
+        <item>@font/lemon</item>
+        <item>@font/margarine</item>
+        <item>@font/original_surfer</item>
+    </array>
+</resources>

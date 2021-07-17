@@ -1,0 +1,110 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity2"
+    android:orientation="vertical"
+    android:background="#dcdcba">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/hammersmith_one"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="20175 522"
+            android:textColor="#509DDA"
+            android:textSize="35dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/txtCity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/carrois_gothic"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:text="Matara"
+            android:textColor="#1D2524"
+
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/txtTemp2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baumans"
+            android:gravity="center"
+            android:text="39.52C"
+            android:textColor="#0B0C0C"
+            android:textSize="50dp">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1.8"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtWeatherDes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/graduate"
+            android:gravity="center"
+            android:text="Rain"
+            android:textColor="#383739"
+            android:paddingTop="20dp"
+            android:textSize="35dp" />
+
+        <TextView
+            android:id="@+id/txtHumidity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="30dp"
+            android:text="Humidity:60%"
+            android:textColor="#36333A"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

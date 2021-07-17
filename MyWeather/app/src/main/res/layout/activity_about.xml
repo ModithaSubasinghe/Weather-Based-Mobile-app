@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dcdcba">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="About Us"
+        android:layout_weight="10"
+        android:textSize="20dp"
+        android:textColor="#E83B05"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:text="Built on: 2021:04:11"
+        android:textColor="#0A0A0B"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Powered by : Moditha Subasinghe"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:paddingBottom="500dp"/>
+
+</LinearLayout>
